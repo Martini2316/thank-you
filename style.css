@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    height: 100vh;
+}
+#container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/009/695/747/small/seamless-wavy-line-pattern-png.png'), #2b2f4d;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+#container .content{
+    max-width: 700px;
+    text-align: center;
+}
+#container .content h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1em;
+}
+#container .content p{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #ff0562;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px solid #d00d56;
+}
